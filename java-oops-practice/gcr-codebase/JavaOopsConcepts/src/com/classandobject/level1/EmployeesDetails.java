@@ -1,0 +1,10 @@
+package com.classandobject.level1;
+
+public class EmployeesDetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello Employees");
+	}
+
+}
