@@ -1,28 +1,11 @@
-# BridgeLabz-Training
-This repository contains my day-wise learning, practice problems, and assignments completed during the BridgeLabz Training Program.
+Week 1: Git, GitHub and programming fundamentals  
 
+Day 1- Git & GitHub setup  
+(Date: 16 Dec 2025)  
 
+> Installed and configured Git.  
+> Set up GitHub repository.  
 
-📅 Day 1 – Java Programming Elements
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
-
-Introduction to Java & JDK setup
-
-Java program structure
-
-Variables, data types, and operators
-
-Basic input/output
-
-🧠 Learning Outcome
-
-Understood Java syntax and execution flow
-
-Built a strong foundation in programming basics
-
-Folder structure 
-__________________________
 BridgeLabz-Training/
 |---- core-java-practice/
 |     |-----gcr-codebase/
@@ -37,118 +20,77 @@ BridgeLabz-Training/
 |     |-----scenario-based-codebase/
 |-----README.md/
 
-📅 Day 2 – Best Practices, Git & Training Guidelines
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
 
-Java coding standards & best practices
+> Learned basic Git commands.  
+> Sucessfully pushed files to the repository.  
 
-Git & GitHub workflow
+Day 2: Git practice and basic java programs  
+(Date: 17 Dec 2025)  
 
-Repository structure & commit practices
+> Practised Git workflow to understand commits and version control.  
+> Solved basic programs to understand syntax and structure.  
+> Practised adding, commiting and pushing java files to Github.  
+Code link  
+[Day 2: Basic java programs](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/code-prerequisites)  
 
-BridgeLabz & CG training guidelines
 
-🧠 Learning Outcome
+Day 3: Git practice and basic java programs  
+(Date: 18 Dec 2025)  
 
-Learned industry-level coding discipline
+> Studied java programming elements  
+      > Variables and data-types  
+      > Operators  
+      > User input and output  
+> Solved practice problem based on programming elements.  
+> Commited and pushed solutions to repository.  
+Code link  
+[Day 3: Programming Elements](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)  
 
-Understood version control and proper repo management
+Day 4: java control flow programs  
+(Date: 19 Dec 2025)  
 
-📅 Day 3 – Control Flow Statements
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
+> Studied java control flow  
+      > if-else  
+      > loops  
+      > switch case  
+> Solved practice problem based on control flow  
+> Commited and pushed solutions to repository.  
+Code link  
+[Day 4: Control flow](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)  
 
-Conditional statements (if, if-else, switch)
+Day 5: studied Arrays in java  
+(Date: 20 Dec 2025)  
 
-Looping constructs (for, while, do-while)
+> Studied java Arrays  
+> Solved practice problem based on array.  
+> Commited and pushed solutions to repository.  
+Code link  
+[Day 5: Control flow](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
-Nested loops and logic building
+Day 6: studied methods in java  
+(Date: 22 Dec 2025)  
 
-🧠 Learning Outcome
+> Studied java methods    
+> Solved practice problem based on methods.    
+> Commited and pushed solutions to repository.  
+Code link  
+[Day 6: Methods ](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
-Improved logical thinking
+Day 7: studied strings in java  
+(Date: 23 Dec 2025)  
 
-Solved decision-based programming problems
+> Studied java strings.      
+> Solved practice problem based on string.      
+> Commited and pushed solutions to repository.  
+Code link  
+[Day 7: Strings ](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
-📅 Day 4 – Java Arrays
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
+Day 8: studied date and time concept in java and solved extra questions  
+(Date: 24 Dec 2025)  
 
-One-dimensional arrays
-
-Array initialization and traversal
-
-Array-based practice problems
-
-🧠 Learning Outcome
-
-Learned data storage using arrays
-
-Gained confidence in solving array problems
-
-📅 Day 5 – Java Methods (Functions)
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
-
-Method creation and invocation
-
-Parameters and return values
-
-Static vs non-static methods
-
-Modular programming
-
-🧠 Learning Outcome
-
-Learned code reusability
-
-Implemented modular and structured programs
-
-📅 Day 6 – Java Strings
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
-
-String creation and immutability
-
-Common String class methods
-
-String manipulation practice problems
-
-🧠 Learning Outcome
-
-Improved string handling skills
-
-Learned effective use of built-in methods
-
-📅 Day 7 – Built-in Functions & Date-Time API
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
-
-Common Java built-in functions
-
-Java Date and Time API
-
-Practical examples and exercises
-
-🧠 Learning Outcome
-
-Gained hands-on experience with Java libraries
-
-Improved real-world coding efficiency
-
-📅 Day 8 – Scenario-Based Problems & Assignments
--------------------------------------------------------------------------------------------------------------
-📘 Topics Covered
-
-Scenario-based programming questions
-
-Logic-building exercises
-
-Assignment practice and revision
-
-🧠 Learning Outcome
-
-Strengthened problem-solving approach
-
-Improved accuracy and coding speed
+> Studied how to get dates in different formats in java.
+> Solved extra practice problems based on bult-in functions      
+> Solved extra practice problem based on methods.      
+> Commited and pushed solutions to repository.  
+Code link  
+[Day 8: Extra questions ](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extras)
