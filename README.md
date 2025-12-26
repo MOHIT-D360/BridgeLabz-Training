@@ -21,6 +21,22 @@ Understood Java syntax and execution flow
 
 Built a strong foundation in programming basics
 
+Folder structure 
+__________________________
+BridgeLabz-Training/
+|---- core-java-practice/
+|     |-----gcr-codebase/
+|     |     |----arrays/
+|     |     |----control-flows/
+|     |     |----Extras/
+|     |     |----methods/
+|     |     |----programming elements/
+|     |     |----program-prerequisite/
+|     |     |----Strings/
+|     |-----leet-code-codebase/
+|     |-----scenario-based-codebase/
+|-----README.md/
+
 📅 Day 2 – Best Practices, Git & Training Guidelines
 -------------------------------------------------------------------------------------------------------------
 📘 Topics Covered
