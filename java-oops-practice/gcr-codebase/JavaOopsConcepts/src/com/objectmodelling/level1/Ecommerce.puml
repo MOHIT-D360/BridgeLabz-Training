@@ -1,0 +1,20 @@
+@startuml
+
+class Orders {
+    -orderId : int
+   + addProduct(prd:Products)
+}
+class Customers{
+    -customerName:String
+    -gender: enum
+    +placeOrder(order:Order)
+}
+class Products{
+    -prdName : String
+    -pId : int
+
+}
+Customers "many" -- "many" Orders 
+Orders "many" o-- "many" Products
+
+@enduml
