@@ -1,0 +1,21 @@
+@startuml
+
+class Customer {
+  - customerName : String
+  - products : ArrayList<Product>
+  + addProduct(product : Product)
+}
+
+class Product {
+  - productName : String
+  - price : double
+}
+
+class BillGenerator {
+  + generateBill(customer : Customer)
+}
+
+Customer "1" *-- "many" Product : purchases
+BillGenerator ..> Customer : computes bill
+
+@enduml
