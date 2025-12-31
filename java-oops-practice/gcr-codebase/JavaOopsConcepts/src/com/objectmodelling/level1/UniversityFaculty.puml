@@ -1,0 +1,20 @@
+@startuml
+
+class University{
+    -universityName : String
+    +addFaculty(tempF: Faculty)
+    +addDepartment(dept:Department)
+}
+class Faculty{
+    -nameFaculty:String
+    -age:int
+    
+
+
+}
+class Department{
+    nameDepartment : String
+    
+}
+University "1" o-- "many" Faculty: aggregates
+University "1" *-- "many" Department: composition
