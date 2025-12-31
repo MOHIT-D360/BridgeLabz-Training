@@ -1,0 +1,25 @@
+@startuml
+
+class Student{
+
+    -stuName: String
+    -stuId : int
+    +enrollCourse(crs:Course)
+
+}
+class Professor{
+    professorName:String
+    professorId :int
+    +assignProfessor(crs:Course);
+
+}
+class Course{
+    -courseName :String
+    -courseId : int
+
+}
+
+Student "many" -- "many" Course: enrolls
+Professor "many" -- "many" Course : teaches
+
+@enduml
