@@ -1,0 +1,15 @@
+@startuml
+
+class Library{
+    -libraryName : String
+    -books : ArrayList<Book>
+    +addBook(book:book)
+}
+
+class Book{
+    - title :String
+    - author : String
+}
+Library "1" o-- "many" Book : aggregates
+
+@enduml
