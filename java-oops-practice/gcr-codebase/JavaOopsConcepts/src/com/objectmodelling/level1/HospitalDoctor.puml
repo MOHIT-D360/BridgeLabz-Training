@@ -1,0 +1,21 @@
+@startuml
+
+class Hospital{
+    -HospitalName :String
+}
+class Doctor{
+    -doctorName :String
+    -specialization :String
+    +consult(patient:Patient)
+}
+class Patient{
+    -patientName :String
+    -disease:String
+}
+Hospital "1" -- "many" Doctor
+Hospital "1" -- "many" Patient
+
+Doctor "many" -- "many" Patient : consults
+
+
+@enduml
