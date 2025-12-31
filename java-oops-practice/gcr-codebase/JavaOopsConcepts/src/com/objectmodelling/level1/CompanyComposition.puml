@@ -1,0 +1,19 @@
+@startuml
+
+class Company{
+    -companyName : String
+    +addDepartment(dept :Department)
+}
+class Department{
+    -deptName :String
+    +addEmployee(emp:Employee)
+}
+class Employee{
+    -empName: String
+    -empId : int
+}
+
+Company "1" *-- "many" Department :composed of 
+Department "1" *-- "many" Employee : contains
+
+@enduml
