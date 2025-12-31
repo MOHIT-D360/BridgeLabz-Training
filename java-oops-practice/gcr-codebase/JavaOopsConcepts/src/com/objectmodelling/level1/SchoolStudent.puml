@@ -1,0 +1,20 @@
+@startuml
+
+class School{
+    -schoolName: String
+    +addStudent(stu:Student)
+}
+class Student{
+    -StudentName: String
+    -StudentId : int
+    +addCourse(crs:Course)
+}
+class Course{
+    -courseName:String
+    -courseId: int
+
+}
+School "1" o-- "many" Student :aggregates
+Student "many" -- "many" Course :associated with
+
+@enduml
