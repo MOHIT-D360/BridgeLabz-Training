@@ -1,0 +1,15 @@
+@startuml
+
+class Bank{
+    - bankName : String 
+    + openAccount(customer:Customer)
+}
+class Customer{
+    -customerName :String
+    -balance: double
+    +viewBalance()
+}
+
+Bank "1" -- "many" Customer : has account
+
+@enduml
