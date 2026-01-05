@@ -10,6 +10,6 @@ class Customer{
     +viewBalance()
 }
 
-Bank "1" -- "many" Customer : has account
+Bank "1" -- "many" Customer : has accounts
 
 @enduml
