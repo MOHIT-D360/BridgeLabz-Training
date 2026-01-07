@@ -496,6 +496,99 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [*Day 17 – Stack, Queue & HashMap Implementations*]()
 
+## 📅 Day 18 – Sorting Algorithms (Complete Overview)  
+**📆 Date:** 05-Jan-2026  
+
+---
+
+## 📘 Topics Covered  
+
+On this day, I explored **7 fundamental sorting algorithms in Java**, with a strong focus on their **core concepts, time & space complexities, and real-world use cases**.
+
+---
+
+## 🔹 1. Bubble Sort  
+**Concept:**  
+Repeatedly compares adjacent elements and swaps them if they are in the wrong order. The largest element gradually “bubbles” to the end of the array.  
+
+**Use Case:**  
+Best suited for **small datasets** or **nearly sorted arrays**.
+
+---
+
+## 🔹 2. Insertion Sort  
+**Concept:**  
+Builds the sorted array one element at a time by inserting each element into its correct position in the already sorted portion.  
+
+**Use Case:**  
+Ideal for **adaptive sorting** and **small-sized arrays**.
+
+---
+
+## 🔹 3. Selection Sort  
+**Concept:**  
+Continuously selects the minimum element from the unsorted part and places it at the beginning.  
+
+**Use Case:**  
+Useful for **simple implementations** and **small datasets**, though not very efficient.
+
+---
+
+## 🔹 4. Counting Sort  
+**Concept:**  
+Counts the frequency of each element and uses this information to place elements at their correct positions.  
+
+**Use Case:**  
+Efficient when dealing with **integer keys within a small range**.
+
+---
+
+## 🔹 5. Merge Sort (Divide & Conquer)  
+**Concept:**  
+Recursively divides the array into halves, sorts each half, and then merges them back together.  
+
+**Use Case:**  
+Preferred for **large datasets** where **stability** is required.
+
+---
+
+## 🔹 6. Quick Sort (Divide & Conquer)  
+**Concept:**  
+Selects a pivot element, partitions the array around it, and recursively sorts the partitions.  
+
+**Use Case:**  
+Highly efficient and commonly used for **large datasets** requiring **high performance**.
+
+---
+
+## 🔹 7. Heap Sort  
+**Concept:**  
+Transforms the array into a **max heap** and repeatedly extracts the largest element to sort the array.  
+
+**Use Case:**  
+Suitable for **priority-based sorting** and **in-place sorting of large datasets**.
+
+---
+
+## 📊 Comparison Table  
+
+| Algorithm        | Best Case     | Average Case | Worst Case   | Space  | Stable |
+|------------------|--------------|--------------|--------------|--------|--------|
+| Bubble Sort      | O(n)         | O(n²)        | O(n²)        | O(1)   | Yes    |
+| Insertion Sort   | O(n)         | O(n²)        | O(n²)        | O(1)   | Yes    |
+| Selection Sort   | O(n²)        | O(n²)        | O(n²)        | O(1)   | No     |
+| Counting Sort    | O(n + k)     | O(n + k)     | O(n + k)     | O(k)   | Yes    |
+| Merge Sort       | O(n log n)   | O(n log n)   | O(n log n)   | O(n)   | Yes    |
+| Quick Sort       | O(n log n)   | O(n log n)   | O(n²)        | O(log n)| No    |
+| Heap Sort        | O(n log n)   | O(n log n)   | O(n log n)   | O(1)   | No     |
+
+---
+
+## 🔗 Code Reference  
+
+👉 **Day 18 – Implementation of 7 Sorting Algorithms**
+
+---
 
 
 
