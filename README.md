@@ -434,7 +434,7 @@ BridgeLabz-Training/
     - HashMap for
 
 🔗 **Code Link:**  
-👉 [*Day 16 – Scenario-Based OOP Programs (Encapsulation & Polymorphism)*]()
+👉 [*Day 16 – Data Structures Overview & Linked Lists*](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaProject/src/com/linkedlist)
 
 ---
 
@@ -494,7 +494,8 @@ BridgeLabz-Training/
   - Writing clean, efficient, and safe data-structure-based code.
 
 🔗 **Code Link:**  
-👉 [*Day 17 – Stack, Queue & HashMap Implementations*]()
+👉 [*Day 17 – Stack, Queue & HashMap Implementations*](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaProject/src/com/stackandqueue)
+👉 [*Day 17 –  HashMap & Hashset Implementations*](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaProject/src/com/hashmapandhashset)
 
 ## 📅 Day 18 – Sorting Algorithms (Complete Overview)  
 **📆 Date:** 05-Jan-2026  
@@ -586,9 +587,126 @@ Suitable for **priority-based sorting** and **in-place sorting of large datasets
 
 ## 🔗 Code Reference  
 
-👉 **Day 18 – Implementation of 7 Sorting Algorithms**
+👉 [**Day 18 – Implementation of 7 Sorting Algorithms**](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaProject/src/com/sortingalgorithm)
 
 ---
+## 📅 Day 19 – Searching Algorithms (Complete Overview)  
+**📆 Date:** 06-Jan-2026  
+
+---
+
+## 📘 Topics Covered  
+
+Focused on **Java best practices** for **string handling**, **file I/O**, and **searching algorithms**, reinforced through **practical and challenge-based problems**.
+
+---
+
+### 🔹 1. StringBuilder  
+**Use When:**  
+- Frequent string modifications  
+- Loops or performance-critical code  
+
+---
+
+### 🔹 2. StringBuffer  
+**Use When:**  
+- Thread-safe string manipulation is required  
+
+---
+
+### 🔹 3. FileReader  
+**Use When:**  
+- Reading character-based text files  
+
+---
+
+### 🔹 4. InputStreamReader  
+**Use When:**  
+- Converting byte streams into character streams  
+
+---
+
+### 🔹 5. Linear Search  
+**Use When:**  
+- Data is **unsorted**  
+- Dataset size is **small**  
+
+---
+
+### 🔹 6. Binary Search  
+**Use When:**  
+- Data is **sorted**  
+- Fast lookup performance is required  
+
+---
+
+🔗 **Code Link:**  
+👉[ Day 19 – Searching Algorithms Implementation ](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaProject/src/com/searchingalgorithm)
+
+---
+
+## 📅 Day 20 – Runtime Analysis & Big O Notation  
+**📆 Date:** 07-Jan-2026  
+
+---
+
+## 📘 Topics Covered  
+
+Studied **Big O Notation** to analyze **time and space complexity** and evaluate **algorithm performance** as input size grows.
+
+---
+
+### 📊 Scenario-Based Analysis  
+
+#### 🔍 Searching in Large Datasets  
+- Linear Search → **O(N)**  
+- Binary Search → **O(log N)** ✅  
+  *Binary Search performs significantly better for large, sorted datasets.*
+
+---
+
+#### 🔁 Sorting Algorithms Comparison  
+- Bubble Sort → **O(N²)**  
+- Merge Sort → **O(N log N)**  
+- Quick Sort → **O(N log N)** ✅  
+  *Bubble Sort is impractical for large inputs.*
+
+---
+
+#### 🧵 String Concatenation Performance  
+- String → **O(N²)**  
+- StringBuilder / StringBuffer → **O(N)** ✅  
+  *Mutable strings provide better performance.*
+
+---
+
+#### 📂 Large File Reading  
+- FileReader → Character-based (slower)  
+- InputStreamReader → Byte-based (faster) ✅  
+  *Choosing the right stream improves performance.*
+
+---
+
+#### 🔢 Fibonacci Computation  
+- Recursive → **O(2ⁿ)**  
+- Iterative → **O(N)** ✅  
+  *Iterative approach is faster and more memory-efficient.*
+
+---
+
+#### 🧮 Searching Using Data Structures  
+- Array → **O(N)**  
+- HashSet → **O(1)** ✅  
+- TreeSet → **O(log N)**  
+  *HashSet offers fastest lookup, while TreeSet maintains order.*
+
+---
+
+🔗 **Code Link:**  
+👉 [Day 20 – Searching Algorithms Implementation]()
+
+---
+
 
 
 
