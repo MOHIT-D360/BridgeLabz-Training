@@ -39,9 +39,53 @@ public class MergeSort {
 	    merge(prices, left, mid, right);
 	}
 	
+
+	static void quickSort(int[] prices,int low,int high){
+		if(low>=high) return ;
+
+		int partition = partition(prices,low,high);
+
+		quickSort(prices, low, partition-1);
+		quickSort(prices, partition+1, high);
+	}
+
+	static int partition(int[] prices,int low,int high){
+		int pivot = prices[low];
+		int count =0;
+		for(int i=low+1;i<prices.length;i++){
+			if(pivot<prices[i]){
+				count++;
+			}
+		}
+		int pivotIndex = low + count;
+		swap(prices,prices[low],prices[pivotIndex]);
+		int i=low;
+		int j=high;
+		while(i<pivotIndex && j> pivotIndex){
+			while(prices[i]<pivot){
+				i++;
+			}
+			while(prices[j]>pivot){
+				j--;
+			}
+			if(i<pivotIndex && j> pivotIndex){
+				swap(prices,prices[i++],prices[j++]);
+			}
+		}
+		return pivotIndex;
+	
+	}
+
+	public static void swap(int [] prices,int x,int y){
+		int temp = prices[x];
+		prices[x] = prices[y];
+		prices[y]= temp;
+	}
 	public static void main(String[] args) {
 		int[] prices = {5, 4, 7, 1, 2, 0};
-		sort(0, prices.length-1, prices);
+		// sort(0, prices.length-1, prices);
+		quickSort(prices, 0, prices.length);
+
 		
 		System.out.println(Arrays.toString(prices));
 	}

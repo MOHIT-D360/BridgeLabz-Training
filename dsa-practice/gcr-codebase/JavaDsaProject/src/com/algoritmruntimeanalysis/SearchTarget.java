@@ -10,8 +10,6 @@ public class SearchTarget {
         }
         System.out.println("Not Found");
     }
-    public static void binarySearch(int [] brr,int target){
-        int low = 0;
         int high = brr.length -1;
         while(low<=high){
             int mid = (low+high)/2;
