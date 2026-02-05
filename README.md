@@ -895,4 +895,22 @@ Studied **Big O Notation** to analyze **time and space complexity** and evaluate
     -Committed and pushed all changes successfully.
 🔗 Code Link:
 [Regex](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionpractice/src/com/regex)
+
+### 🗓 Day 33 – Annotations 
+**(Date: 27-Jan-2026)**
+
+Studied Java Annotations and their purpose.
+Learned built-in and custom annotations.
+Committed and pushed all changes successfully.
+🔗 Code Link:
+[Annotations](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionpractice/src/com/annotations)
+
+### 🗓 Day 34 –  Reflection
+**(Date: 29-Jan-2026)**
+
+Understood Java Reflection API and its use cases.
+Practiced accessing fields, methods, and constructors using reflection.
+Committed and pushed all changes successfully.
+🔗 Code Link:
+[Reflection](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionpractice/src/com/reflection)
 ✨ *More updates coming as I continue my Java & DSA journey...*
