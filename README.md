@@ -876,5 +876,23 @@ Studied **Big O Notation** to analyze **time and space complexity** and evaluate
 👉 [Scenario Based Problems DSA](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/dsascenariobased/src/com)
 
 ---
+### 🗓 Day 31 – JUnit
+**(Date: 22-Jan-2026)**
 
+-Studied J unit testing  in Java.
+    -Learned the basics of JUnit for unit testing in Java.
+    -Implemented test cases using JUnit annotations and assertions.
+    -Committed and pushed all changes successfully.
+🔗 Code Link:
+[junit](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionpractice/src/com/junit)
+
+### 🗓 Day 32 – Regex 
+**(Date: 23-Jan-2026)**
+
+-Studied Regex in Java.
+    -Studied Regular Expressions (Regex) for pattern matching in Java.
+    -Practiced using regex for validation and text processing.
+    -Committed and pushed all changes successfully.
+🔗 Code Link:
+[Regex](https://github.com/MOHIT-D360/BridgeLabz-Training/tree/java-collection-practice/java-collection-practice/gcr-codebase/javacollectionpractice/src/com/regex)
 ✨ *More updates coming as I continue my Java & DSA journey...*
