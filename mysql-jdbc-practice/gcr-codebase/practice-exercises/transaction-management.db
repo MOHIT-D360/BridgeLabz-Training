@@ -1,0 +1,32 @@
+
+create table Accounts(
+account_No int(10) primary key,
+holder_name varchar(255) not null ,
+balance int
+);
+
+create table Transaction_History(
+id int primary key ,
+action varchar(255) not null
+);
+
+
+
+insert into Accounts(account_no,holder_name,balance)
+values
+(1111111111,"mohit",45000),
+(1111111112,"rohit",5000),
+(1111111113,"arun",50000),
+(1111111114,"abhay",25000);
+
+select * from Accounts;
+
+start transaction;
+update Accounts set balance = balance-500 where account_No = 1111111111;
+update Accounts set balance = balance +500 where account_No = 1111111112;
+insert into Transaction_History value (01,"1111111111 transferred 500 to 1111111112");
+
+commit;
+select balance from Accounts where account_No = 1111111111;
+select * from Transaction_History;
+
