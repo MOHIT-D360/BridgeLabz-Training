@@ -1,0 +1,90 @@
+
+select * from books;
+create table books(
+book_id INT auto_increment primary key,
+title varchar(200),
+author varchar(100),
+genre varchar(50),
+total_copies int,
+available_copies int);
+
+create table students (
+student_id int auto_increment primary key,
+name varchar(100),
+department varchar(50));
+
+create table borrow_records (
+record_id int auto_increment primary key,
+student_id int ,
+book_id int,
+issue_date date,
+return_date date,
+actual_return_date date,
+fine_account decimal(10,2),
+foreign key (student_id) references students(student_id),
+foreign key (book_id) references books(book_id));
+
+insert into books (title,author,genre,totol_copies,available_copies)
+values
+('book-1','author-1','genre-1',10,10),
+('book-2','author-2','genre-2',15,15),
+('book-3','author-3','genre-3',5,5),
+('book-4','author-4','genre-4',7,7),
+('book-5','author-5','genre-5',3,3);
+
+-- check 
+select title,available_copies from books;
+
+insert into students (name,department)
+values
+("mohit","AIDS"),
+("ROHIT","AI"),
+("KARAN","DS"),
+("TARUN","CS");
+
+select * FROM 	students;
+START transaction;
+insert into borrow_records (student_id ,book_id,issue_date,return_date)
+values(1,1,curdate(),date_add(curdate(),interval 7 DAY));
+-- reduce copy
+update books set available_copies = available_copies-1
+where book_id =1;
+
+commit;
+
+-- return book
+start transaction;
+update borrow_records set actual_return_date = curdate() where record_id=1;
+update books set available_copies = available_copies+1
+where book_id = 1;
+commit;
+
+update borrow_records 
+set fine_account = 
+	case 
+		when actual_return_date>return_date
+        then datediff(actual_return_date,return_date) *5
+        else 0
+        end
+        where record_id = 1;
+
+-- view report 
+select s.name,b.title,br.fine_account
+from borrow_records br
+join students s on br.student_id = s.student_id
+join books b on br.book_id = b.book_id;
+
+-- search 
+select * from books
+where title like '%oo%';
+
+-- search by author
+select * from books 
+where author = 'author-1';
+
+-- search filter
+
+select * from books 
+where author = 'author-1'
+and genre = 'genre-1'
+and available_copies>0;
