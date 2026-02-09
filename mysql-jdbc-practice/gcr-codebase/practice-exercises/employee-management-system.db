@@ -1,0 +1,28 @@
+
+create table employees(
+E_ID Int primary key,
+E_name varchar(50),
+DEPT VARCHAR(50),
+SALARY INT );
+
+-- add
+insert into employees(E_ID,E_name,DEPT,SALARY)
+VALUES
+(01,'MOHIT','MRKT',20000),
+(02,'ROHIT','HR',20000),
+(03,'ROHAN','MRKT',20000),
+(04,'MOHAN','IT',20000),
+(05,'CHANDAN','HR',20000),
+(06,'TARUN','IT',20000) 
+;
+-- display
+SELECT * FROM employees;
+
+-- 	delete 
+delete  from employees where E_ID = 1;
+
+-- update 
+update employees set salary = 45000 where E_ID = 2;
+
+-- search 
+select * from employees where E_name  = "ROHIT";
